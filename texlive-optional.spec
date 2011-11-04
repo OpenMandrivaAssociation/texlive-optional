@@ -1,3 +1,9 @@
+# revision 18131
+# category Package
+# catalog-ctan /macros/latex/contrib/optional
+# catalog-date 2010-05-11 12:50:01 +0200
+# catalog-license lppl
+# catalog-version 2.2b
 Name:		texlive-optional
 Version:	2.2b
 Release:	1
@@ -44,6 +50,7 @@ optional sections (whether they're included or not).
 %{_texmfdistdir}/tex/latex/optional/optional.sty
 %doc %{_texmfdistdir}/doc/latex/optional/optional.pdf
 %doc %{_texmfdistdir}/doc/latex/optional/optional.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ optional sections (whether they're included or not).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
