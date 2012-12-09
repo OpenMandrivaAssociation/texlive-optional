@@ -51,3 +51,17 @@ optional sections (whether they're included or not).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2b-2
++ Revision: 754553
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.2b-1
++ Revision: 719166
+- texlive-optional
+- texlive-optional
+- texlive-optional
+- texlive-optional
+
