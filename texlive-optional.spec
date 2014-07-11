@@ -6,7 +6,7 @@
 # catalog-version 2.2b
 Name:		texlive-optional
 Version:	2.2b
-Release:	7
+Release:	8
 Summary:	Facilitate optional printing of parts of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/optional
