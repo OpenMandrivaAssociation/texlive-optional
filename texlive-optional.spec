@@ -1,6 +1,6 @@
 Name:		texlive-optional
 Version:	18131
-Release:	1
+Release:	2
 Summary:	Facilitate optional printing of parts of a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/optional
